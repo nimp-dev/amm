@@ -29,7 +29,7 @@ AppAsset::register($this);
 <div class='wrap'>
     <?php
     NavBar::begin([
-        'brandLabel' => '<a href="#" class="navbar-left" ><img src="ammlogo.jpg" width="50"></a>',
+        'brandLabel' => '<a href="#" class="navbar-left" style="color:#ffffff" ><img src="ammlogo.jpg" width="50"> Ателье Мягкой Мебели</a>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top nap',
@@ -63,7 +63,8 @@ AppAsset::register($this);
     <div class="container b_color">
         <div class="row">
                 <div class="col-sm-6">
-                    <div class="nap_h font-italic">Изготовление мягкой мебели по вашим предпочтениям, любые размеры и материалы.</div>
+                    <div class="nap_h font-italic">Изготовление мягкой мебели по вашим предпочтениям, 
+                    с использованием материалов на выбор и любых размеров</div>
                 </div>
                 <div class="col-sm-6">
                     <div class="row">
@@ -80,8 +81,15 @@ AppAsset::register($this);
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div>
-                                inst
+                            <div class="row">
+                                  <div class="col-sm-12">
+                                    inst
+                                  </div>
+                            </div>  
+                           <div class="row">
+                                  <div class="col-sm-12">
+                                    face book
+                                  </div>       
                             </div>
                         </div>
                     </div>

@@ -36,10 +36,13 @@ body{
 }
 
 .b_color{
-	background-color: green;
+    border: 1px solid red;
+    padding: 10p
 }
 
 .nap_h{
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-size: 1.9rem;
+    color: #890916;
+    font-weight: 900;
 }
