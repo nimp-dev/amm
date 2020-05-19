@@ -102,19 +102,53 @@ AppAsset::register($this);
         ]) ?>
 
         <?= Alert::widget() ?>
-        <div class="btn-group">
-  <button type="button" class="btn btn-danger">Action</button>
-  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <span class="sr-only">Toggle Dropdown</span>
-  </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Separated link</a>
-  </div>
+ <div class="btn-group">
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="background-color: #890916; color: #ffffff ">
+    гостинично-ресторанная мебель
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu">
+    <li><a href="">asd</a></li>
+    <li><a href="">asd</a></li>
+    <li><a href="">asd</a></li>
+  </ul>
 </div>
+ <div class="btn-group">
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="background-color: #890000; color: #ffffff ">
+    мягкая мебель для дома
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu">
+    <li><a href="">asd</a></li>
+    <li><a href="">asd</a></li>
+    <li><a href="">asd</a></li>
+  </ul>
+</div>
+ <div class="btn-group">
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="background-color: #890916; color: #ffffff ">
+    реставрация/ремонт
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu">
+    <li><a href="">asd</a></li>
+    <li><a href="">asd</a></li>
+    <li><a href="">asd</a></li>
+  </ul>
+</div>
+ <div class="btn-group">
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="background-color: #890916; color: #ffffff ">
+    что-еще
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu">
+    <li><a href="">asd</a></li>
+    <li><a href="">asd</a></li>
+    <li><a href="">asd</a></li>
+  </ul>
+</div>
+
+
+
         <?= $content ?>
     </div>
 </div>
