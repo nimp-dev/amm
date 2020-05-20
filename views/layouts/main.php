@@ -60,7 +60,11 @@ AppAsset::register($this);
     NavBar::end();
     ?>
 
-    <div class="container b_color">
+ 
+    <div class="container">
+            
+
+               <div class="b_color">
         <div class="row">
                 <div class="col-sm-6">
                     <div class="nap_h font-italic">Изготовление мягкой мебели по вашим предпочтениям, 
@@ -96,57 +100,39 @@ AppAsset::register($this);
                 </div>
         </div>
     </div>
-    <div class="container">
+
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!—Название сайта и кнопка раскрытия меню для мобильных-->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">категории товаров</a>
+    </div>
+ 
+    <!—Само меню-->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Пункт 1</a></li>
+        <li><a href="#">Пункт 2</a></li>
+        <li><a href="#">Пункт 3</a></li>
+        <li><a href="#">Пункт 4</a></li>
+        <li><a href="#">Пункт 5</a></li> 
+      </ul>    
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
 
         <?= Alert::widget() ?>
- <div class="btn-group">
-  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="background-color: #890916; color: #ffffff ">
-    гостинично-ресторанная мебель
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu">
-    <li><a href="">asd</a></li>
-    <li><a href="">asd</a></li>
-    <li><a href="">asd</a></li>
-  </ul>
-</div>
- <div class="btn-group">
-  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="background-color: #890000; color: #ffffff ">
-    мягкая мебель для дома
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu">
-    <li><a href="">asd</a></li>
-    <li><a href="">asd</a></li>
-    <li><a href="">asd</a></li>
-  </ul>
-</div>
- <div class="btn-group">
-  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="background-color: #890916; color: #ffffff ">
-    реставрация/ремонт
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu">
-    <li><a href="">asd</a></li>
-    <li><a href="">asd</a></li>
-    <li><a href="">asd</a></li>
-  </ul>
-</div>
- <div class="btn-group">
-  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="background-color: #890916; color: #ffffff ">
-    что-еще
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu">
-    <li><a href="">asd</a></li>
-    <li><a href="">asd</a></li>
-    <li><a href="">asd</a></li>
-  </ul>
-</div>
-
 
 
         <?= $content ?>
